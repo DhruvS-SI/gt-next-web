@@ -35,6 +35,12 @@ gt-next-web/
 ├── app/                    # App Router pages
 │   ├── layout.js          # Root layout
 │   ├── page.js            # Home page
+│   ├── error.js           # Error boundary
+│   ├── not-found.js       # 404 page
+│   ├── loading.js         # Loading state
+│   ├── global-error.js    # Global error handler
+│   ├── robots.js          # Robots.txt generator
+│   ├── sitemap.js         # Sitemap generator
 │   ├── team/              # Team page
 │   ├── matches/           # Matches page
 │   ├── news/              # News page
@@ -85,6 +91,26 @@ The project uses environment variables for configuration. See `.env.example` for
 
 **Note:** Variables prefixed with `NEXT_PUBLIC_` are exposed to the browser.
 
+## Special Files
+
+Next.js App Router includes special files for various functionalities:
+
+- **error.js** - Error boundary for catching runtime errors
+- **not-found.js** - Custom 404 page for missing routes
+- **loading.js** - Loading UI while content is being fetched
+- **global-error.js** - Global error handler for the entire app
+- **robots.js** - Dynamic robots.txt for SEO
+- **sitemap.js** - Dynamic XML sitemap for search engines
+
 ## Development
 
 This is a basic setup with routing shells. Styling and functionality will be added in subsequent phases.
+
+## Scripts
+
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run ESLint
+```
