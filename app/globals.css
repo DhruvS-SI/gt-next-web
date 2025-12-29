@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+    /* Brand Fonts */
+    --font-sans: var(--font-public-sans), ui-sans-serif, system-ui, sans-serif;
+    --default-font-family: var(--font-sans);
+
+    /* Brand Colors */
+    --color-brand-blue: hsla(214, 65%, 12%, 1);
+    --color-brand-gold: hsla(45, 66%, 66%, 1);
+    
+    --color-primary: var(--color-brand-blue);
+    --color-secondary: var(--color-brand-gold);
+    --color-accent: hsla(216, 39%, 27%, 1);
+    
+    /* Blue Shades (Primary) */
+    --color-primary-light: hsla(214, 65%, 12%, 1); /* Start of blue gradient */
+    
+    /* Gold Shades (Secondary) */
+    --color-secondary-light: hsla(46, 83%, 72%, 1);
+    --color-secondary-dark: hsla(42, 41%, 52%, 1);
+    --color-secondary-2: hsla(44, 59%, 63%, 1);
+    --color-secondary-3: hsla(46, 80%, 71%, 1);
+    --color-secondary-4: hsla(43, 58%, 60%, 1);
+
+    --color-success: hsla(145, 75%, 41%, 1);
+    --color-warning: hsla(360, 81%, 58%, 1);
+}
+
+@utility bg-primary-gradient-1 {
+    background: linear-gradient(91.83deg, var(--color-brand-blue) 0%, var(--color-accent) 100%);
+}
+
+@utility bg-secondary-gradient-1 {
+    background: linear-gradient(71.55deg, var(--color-secondary-light) -2.42%, var(--color-brand-gold) 18.81%, var(--color-secondary-dark) 47.18%, var(--color-secondary-2) 73.91%, var(--color-secondary-3) 88.2%, var(--color-secondary-4) 98.68%);
+}
+
+
+
