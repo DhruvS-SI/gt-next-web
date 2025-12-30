@@ -1,9 +1,12 @@
 export default function Gallery() {
 
-  const data = newshook()
 
   return (
-    <News data.title />
+  
+  <main>
+      <h1>Gallery</h1>
+      <p>Latest gallery and updates</p>
+    </main>
   )
 }
 
