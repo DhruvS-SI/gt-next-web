@@ -1,5 +1,7 @@
 import { Public_Sans } from "next/font/google"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Header from "@/components/layout/Header"
+import Footer from "@/components/layout/Footer"
 import "./globals.css"
 
 const publicSans = Public_Sans({
@@ -16,8 +18,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={publicSans.variable}>
-      <body className="antialiased">
-        {children}
+      <body className="antialiased min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
         <SpeedInsights />
       </body>
     </html>
