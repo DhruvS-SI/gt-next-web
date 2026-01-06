@@ -16,8 +16,7 @@ export const useTable = ({
   const [hasMore, setHasMore] = useState(true)
   const [currentPage, setCurrentPage] = useState(initialPage)
 
-   * Build full URL with query params
-   */
+
   const buildUrl = useCallback((page = null, limit = null) => {
     const fullUrl = baseUrl ? `${baseUrl}${url}` : url
     const separator = fullUrl.includes('?') ? '&' : '?'
@@ -53,8 +52,7 @@ export const useTable = ({
     }
   }, [url, baseUrl, enableLoadMore, initialPage, pageSize, buildUrl])
 
-   * Fetch initial data
-   */
+
   const fetchInitial = useCallback(async () => {
     if (!url) return
 
@@ -86,8 +84,7 @@ export const useTable = ({
   }, [fetchData, initialPage, pageSize, enableLoadMore, url])
 
  
-   * Load more data - fetches next page and appends to existing data
-   */
+
   const loadMore = useCallback(async () => {
     if (!enableLoadMore || loading || !hasMore || !url) return
 
