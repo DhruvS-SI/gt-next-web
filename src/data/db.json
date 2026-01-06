@@ -1,0 +1,56 @@
+{
+  "pointsTable": [
+    { "id": 1, "position": 1, "team": "Punjab Kings", "shortName": "PBKS", "logo": "/images/teams/pbks.png", "played": 14, "won": 9, "lost": 4, "noResult": 1, "nrr": 0.372, "points": 19, "qualified": true },
+    { "id": 2, "position": 2, "team": "Royal Challengers Bengaluru", "shortName": "RCB", "logo": "/images/teams/rcb.png", "played": 14, "won": 9, "lost": 4, "noResult": 1, "nrr": 0.301, "points": 19, "qualified": true },
+    { "id": 3, "position": 3, "team": "Gujarat Titans", "shortName": "GT", "logo": "/images/teams/gt.png", "played": 14, "won": 9, "lost": 5, "noResult": 0, "nrr": 0.254, "points": 18, "qualified": true },
+    { "id": 4, "position": 4, "team": "Mumbai Indians", "shortName": "MI", "logo": "/images/teams/mi.png", "played": 14, "won": 8, "lost": 6, "noResult": 0, "nrr": 1.142, "points": 16, "qualified": true },
+    { "id": 5, "position": 5, "team": "Delhi Capitals", "shortName": "DC", "logo": "/images/teams/dc.png", "played": 14, "won": 7, "lost": 6, "noResult": 1, "nrr": 0.011, "points": 15, "qualified": false },
+    { "id": 6, "position": 6, "team": "Sunrisers Hyderabad", "shortName": "SRH", "logo": "/images/teams/srh.png", "played": 14, "won": 6, "lost": 7, "noResult": 1, "nrr": -0.241, "points": 13, "qualified": false },
+    { "id": 7, "position": 7, "team": "Lucknow Super Giants", "shortName": "LSG", "logo": "/images/teams/lsg.png", "played": 14, "won": 6, "lost": 8, "noResult": 0, "nrr": -0.376, "points": 12, "qualified": false },
+    { "id": 8, "position": 8, "team": "Kolkata Knight Riders", "shortName": "KKR", "logo": "/images/teams/kkr.png", "played": 14, "won": 5, "lost": 7, "noResult": 2, "nrr": -0.305, "points": 12, "qualified": false },
+    { "id": 9, "position": 9, "team": "Rajasthan Royals", "shortName": "RR", "logo": "/images/teams/rr.png", "played": 14, "won": 4, "lost": 10, "noResult": 0, "nrr": -0.549, "points": 8, "qualified": false }
+  ],
+  "runsLeaderboard": [
+    { "id": 1, "position": 1, "player": "Sai Sudharsan", "teamName": "Gujarat Titans", "teamShortName": "GT", "teamLogo": "/images/teams/gt.png", "matches": 15, "notOuts": 1, "runs": 759, "highScore": "108*", "average": 54.21, "strikeRate": 156.17, "centuries": 1, "fifties": 6, "fours": 88, "sixes": 21, "ducks": 0 },
+    { "id": 2, "position": 2, "player": "Suryakumar Yadav", "teamName": "Mumbai Indians", "teamShortName": "MI", "teamLogo": "/images/teams/mi.png", "matches": 16, "notOuts": 5, "runs": 717, "highScore": "73*", "average": 65.18, "strikeRate": 167.91, "centuries": 0, "fifties": 5, "fours": 69, "sixes": 38, "ducks": 0 },
+    { "id": 3, "position": 3, "player": "Virat Kohli", "teamName": "Royal Challengers Bengaluru", "teamShortName": "RCB", "teamLogo": "/images/teams/rcb.png", "matches": 15, "notOuts": 3, "runs": 657, "highScore": "73*", "average": 54.75, "strikeRate": 144.71, "centuries": 0, "fifties": 8, "fours": 66, "sixes": 19, "ducks": 0 },
+    { "id": 4, "position": 4, "player": "Shubman Gill", "teamName": "Gujarat Titans", "teamShortName": "GT", "teamLogo": "/images/teams/gt.png", "matches": 15, "notOuts": 2, "runs": 650, "highScore": "93*", "average": 50.00, "strikeRate": 155.87, "centuries": 0, "fifties": 6, "fours": 62, "sixes": 24, "ducks": 0 },
+    { "id": 5, "position": 5, "player": "Mitchell Marsh", "teamName": "Lucknow Super Giants", "teamShortName": "LSG", "teamLogo": "/images/teams/lsg.png", "matches": 13, "notOuts": 0, "runs": 627, "highScore": "117", "average": 48.23, "strikeRate": 163.7, "centuries": 1, "fifties": 6, "fours": 56, "sixes": 37, "ducks": 2 },
+    { "id": 6, "position": 6, "player": "Shreyas Iyer", "teamName": "Punjab Kings", "teamShortName": "PBKS", "teamLogo": "/images/teams/pbks.png", "matches": 17, "notOuts": 5, "runs": 604, "highScore": "97*", "average": 50.33, "strikeRate": 175.07, "centuries": 0, "fifties": 6, "fours": 43, "sixes": 39, "ducks": 1 }
+  ],
+  "battingScorecard": [
+    { "id": 1, "player": "Sai Sudharsan", "runs": 41, "balls": 28, "fours": 6, "sixes": 0, "strikeRate": 146.42, "dismissal": "c Shivam Dube b Ravindra Jadeja", "trend": "up" },
+    { "id": 2, "player": "Shubman Gill", "isCaptain": true, "runs": 13, "balls": 9, "fours": 1, "sixes": 1, "strikeRate": 144.44, "dismissal": "c Urvil Patel b Anshul Kamboj" },
+    { "id": 3, "player": "Jos Buttler", "isWicketkeeper": true, "runs": 5, "balls": 7, "fours": 0, "sixes": 0, "strikeRate": 71.42, "dismissal": "c Anshul Kamboj b Khaleel Ahmed" },
+    { "id": 4, "player": "Sherfane Rutherford", "runs": 0, "balls": 4, "fours": 0, "sixes": 0, "strikeRate": 0, "dismissal": "c Ayush Mhatre b Anshul Kamboj" },
+    { "id": 5, "player": "Shahrukh Khan", "runs": 19, "balls": 15, "fours": 0, "sixes": 2, "strikeRate": 126.66, "dismissal": "c Matheesha Pathirana b Ravindra Jadeja" },
+    { "id": 6, "player": "Rahul Tewatia", "runs": 14, "balls": 10, "fours": 1, "sixes": 0, "strikeRate": 140, "dismissal": "c Shivam Dube b Noor Ahmad" },
+    { "id": 7, "player": "Rashid Khan", "runs": 12, "balls": 8, "fours": 1, "sixes": 1, "strikeRate": 150, "dismissal": "c Urvil Patel b Noor Ahmad" },
+    { "id": 8, "player": "Gerald Coetzee", "runs": 5, "balls": 5, "fours": 1, "sixes": 0, "strikeRate": 100, "dismissal": "b Matheesha Pathirana" },
+    { "id": 9, "player": "Arshad Khan", "runs": 20, "balls": 14, "fours": 0, "sixes": 3, "strikeRate": 142.85, "dismissal": "b Noor Ahmad" },
+    { "id": 10, "player": "Sai Kishore", "runs": 3, "balls": 7, "fours": 0, "sixes": 0, "strikeRate": 42.85, "dismissal": "c MS Dhoni b Anshul Kamboj" },
+    { "id": 11, "player": "Mohammed Siraj", "runs": 3, "balls": 4, "fours": 0, "sixes": 0, "strikeRate": 75, "status": "not out" }
+  ],
+  "bowlingScorecard": [
+    { "id": 1, "bowler": "Ravindra Jadeja", "overs": 3, "maidens": 0, "runs": 17, "wickets": 2, "noBalls": 0, "wides": 0, "economyRate": 5.66 },
+    { "id": 2, "bowler": "Khaleel Ahmed", "overs": 3, "maidens": 0, "runs": 17, "wickets": 1, "noBalls": 0, "wides": 1, "economyRate": 5.66 },
+    { "id": 3, "bowler": "Anshul Kamboj", "overs": 2.3, "maidens": 0, "runs": 13, "wickets": 3, "noBalls": 0, "wides": 0, "economyRate": 5.20 },
+    { "id": 4, "bowler": "Shivam Dube", "overs": 2, "maidens": 0, "runs": 33, "wickets": 0, "noBalls": 0, "wides": 1, "economyRate": 16.50 },
+    { "id": 5, "bowler": "Noor Ahmad", "overs": 4, "maidens": 0, "runs": 21, "wickets": 3, "noBalls": 0, "wides": 1, "economyRate": 5.25 },
+    { "id": 6, "bowler": "Matheesha Pathirana", "overs": 3, "maidens": 0, "runs": 29, "wickets": 1, "noBalls": 0, "wides": 2, "economyRate": 9.66, "trend": "up" },
+    { "id": 7, "bowler": "Deepak Hooda", "overs": 1, "maidens": 0, "runs": 15, "wickets": 0, "noBalls": 0, "wides": 1, "economyRate": 15.00 }
+  ],
+  "fallOfWickets": [
+    { "id": 1, "score": 24, "wicketNumber": 1, "player": "Shubman Gill", "isCaptain": true, "over": "2.3" },
+    { "id": 2, "score": 29, "wicketNumber": 2, "player": "Jos Buttler", "isWicketkeeper": true, "over": "3.4" },
+    { "id": 3, "score": 30, "wicketNumber": 3, "player": "Sherfane Rutherford", "over": "4.3" },
+    { "id": 4, "score": 85, "wicketNumber": 4, "player": "Shahrukh Khan", "over": "10.1" },
+    { "id": 5, "score": 86, "wicketNumber": 5, "player": "Sai Sudharsan", "over": "10.4" },
+    { "id": 6, "score": 105, "wicketNumber": 6, "player": "Rashid Khan", "over": "12.5" },
+    { "id": 7, "score": 110, "wicketNumber": 7, "player": "Gerald Coetzee", "over": "13.4" },
+    { "id": 8, "score": 126, "wicketNumber": 8, "player": "Rahul Tewatia", "over": "15.3" },
+    { "id": 9, "score": 142, "wicketNumber": 9, "player": "Arshad Khan", "over": "17.3" },
+    { "id": 10, "score": 147, "wicketNumber": 10, "player": "Sai Kishore", "over": "18.3" }
+  ]
+}
+
