@@ -5,7 +5,7 @@ export default function HeaderMweb() {
     const navLinks = db.headerMenuItems
 
     return (
-        <header className="lg:hidden w-full bg-primary text-white border-b border-white/10">
+        <header className="lg:hidden w-full text-white border-b border-white/10 bg-primary-gradient-1">
             <div className="px-5">
                 {/* Header Top Layer */}
                 <div className="flex justify-between items-center py-4">

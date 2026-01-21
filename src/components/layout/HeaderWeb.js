@@ -6,30 +6,14 @@ export default function HeaderWeb() {
     const moreLinks = db.headerMenuItems.slice(6)
 
     return (
-        <header className="hidden lg:block w-full bg-primary text-white border-b border-white/10">
-            <div className="max-w-[1440px] mx-auto px-6">
-                {/* Header Top */}
-                <div className="flex justify-between items-center py-4 border-b border-white/5">
-                    <div className="flex items-center gap-8 flex-1">
-                        <Link href="/" className="shrink-0">
-                            <h1 className="text-3xl font-bold text-secondary tracking-tight">Gujarat Titans</h1>
-                        </Link>
-                    </div>
-
-                    <div className="flex items-center gap-6">
-                        <div className="flex items-center gap-4 border-r border-white/10 pr-6 mr-6">
-                            <div className="flex gap-3">
-                                <Link href="#" className="hover:text-secondary transition-colors"><i className="icon-facebook text-lg"></i></Link>
-                                <Link href="#" className="hover:text-secondary transition-colors"><i className="icon-twitter text-lg"></i></Link>
-                                <Link href="#" className="hover:text-secondary transition-colors"><i className="icon-instagram text-lg"></i></Link>
-                                <Link href="#" className="hover:text-secondary transition-colors"><i className="icon-youtube text-lg"></i></Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+        <header className="hidden lg:block w-full text-white border-b border-white/10 bg-primary-gradient-1 relative before:content-[''] before:absolute before:inset-0 before:bg-[url('/pattern-04.svg')] before:opacity-30 before:z-0">
+            <div className="max-w-[1440px] mx-auto px-6 relative z-10">
                 {/* Header Bottom */}
-                <div className="flex justify-between items-center py-2">
+                <div className="flex items-center justify-between gap-12">
+                    <Link href="/" className="shrink-0">
+                        <img src="/logo.svg" alt="Gujarat Titans" className="w-[127px] relative bottom-[-10px]" />
+                    </Link>
+
                     <nav>
                         <ul className="flex items-center gap-8">
                             {navLinks.map((link) => (
@@ -61,12 +45,6 @@ export default function HeaderWeb() {
                             </li>
                         </ul>
                     </nav>
-
-                    <div className="flex items-center gap-6">
-                        <button className="p-2 hover:text-secondary transition-colors">
-                            <span className="text-sm font-bold uppercase tracking-widest">Search</span>
-                        </button>
-                    </div>
                 </div>
             </div>
         </header>
