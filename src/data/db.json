@@ -51,6 +51,24 @@
     { "id": 8, "score": 126, "wicketNumber": 8, "player": "Rahul Tewatia", "over": "15.3" },
     { "id": 9, "score": 142, "wicketNumber": 9, "player": "Arshad Khan", "over": "17.3" },
     { "id": 10, "score": 147, "wicketNumber": 10, "player": "Sai Kishore", "over": "18.3" }
+  ],
+  "headerMenuItems": [
+    { "id": 1, "name": "Home", "href": "/" },
+    { "id": 2, "name": "News", "href": "/news" },
+    { "id": 3, "name": "Videos", "href": "/video" },
+    { "id": 4, "name": "Photos", "href": "/photos" },
+    { "id": 5, "name": "Ticket", "href": "/ticket" },
+    { "id": 6, "name": "Shop", "href": "/shop" },
+    { "id": 7, "name": "Squad", "href": "/squad" },
+    { "id": 8, "name": "Standings", "href": "/standings" },
+    { "id": 9, "name": "Fixtures", "href": "/fixtures" },
+    { "id": 10, "name": "IPL Tracker", "href": "/ipl-tracker" }
+  ],
+  "footerMenuItems": [
+    { "id": 1, "name": "About Us", "href": "/about" },
+    { "id": 2, "name": "Contact", "href": "/contact" },
+    { "id": 3, "name": "Privacy Policy", "href": "/privacy-policy" },
+    { "id": 4, "name": "Terms of Service", "href": "/terms-of-service" }
   ]
 }
 
