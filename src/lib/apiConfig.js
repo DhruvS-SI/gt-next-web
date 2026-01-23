@@ -8,6 +8,7 @@ export const API_ENDPOINTS = {
   BATTING_SCORECARD: '/battingScorecard',
   BOWLING_SCORECARD: '/bowlingScorecard',
   FALL_OF_WICKETS: '/fallOfWickets',
+  FIXTURES: '/fixtures',
 }
 
 
@@ -38,5 +39,13 @@ export const TABLE_API_CONFIG = {
   fallOfWickets: {
     url: API_ENDPOINTS.FALL_OF_WICKETS,
   },
+}
+
+export const FIXTURE_API_CONFIG = {
+  fixtures: {
+    url: API_ENDPOINTS.FIXTURES,
+    autoFetch: true,
+  },
+  // Future: filtered fixtures, upcoming only, etc.
 }
 

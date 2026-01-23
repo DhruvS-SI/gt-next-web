@@ -69,6 +69,612 @@
     { "id": 2, "name": "Contact", "href": "/contact" },
     { "id": 3, "name": "Privacy Policy", "href": "/privacy-policy" },
     { "id": 4, "name": "Terms of Service", "href": "/terms-of-service" }
+  ],
+  "fixtures": [
+    {
+      "id": 262619,
+      "variant": "live",
+      "matchNumber": 24,
+      "matchDate": "2026-01-24T19:30+05:30",
+      "venue": "M.Chinnaswamy Stadium, Bengaluru",
+      "team1": {
+        "name": "Royal Challengers Bengaluru",
+        "shortName": "RCB",
+        "logo": "/teams/1105.png",
+        "score": {
+          "runs": 156,
+          "wickets": 3,
+          "overs": "15.2"
+        }
+      },
+      "team2": {
+        "name": "Gujarat Titans",
+        "shortName": "GT",
+        "logo": "/teams/2955.png",
+        "score": {
+          "runs": 180,
+          "wickets": 5,
+          "overs": "20.0"
+        }
+      },
+      "matchStatus": "Royal Challengers Bengaluru need 24 Run(S) To Win"
+    },
+    {
+      "id": 260463,
+      "variant": "live",
+      "matchNumber": 50,
+      "matchDate": "2025-05-02T18:15+05:30",
+      "venue": "22 Yards, Salt Lake, Kolkata",
+      "team1": {
+        "name": "Mumbai Indians",
+        "shortName": "MI",
+        "logo": "/teams/1111.png",
+        "score": {
+          "runs": 11,
+          "wickets": 0,
+          "overs": "0.3"
+        }
+      },
+      "team2": {
+        "name": "Gujarat Titans",
+        "shortName": "GT",
+        "logo": "/teams/2955.png"
+      },
+      "matchStatus": "Mumbai Indians elected to bat"
+    },
+    {
+      "id": 259916,
+      "variant": "live",
+      "matchNumber": 25,
+      "matchDate": "2025-04-21T20:00+05:30",
+      "venue": "Wankhede Stadium, Mumbai",
+      "team1": {
+        "name": "Mumbai Indians",
+        "shortName": "MI",
+        "logo": "/teams/1111.png",
+        "score": {
+          "runs": 3,
+          "wickets": 0,
+          "overs": "0.2"
+        }
+      },
+      "team2": {
+        "name": "Punjab Kings",
+        "shortName": "PBKS",
+        "logo": "/teams/1107.png"
+      },
+      "matchStatus": "Mumbai Indians elected to bat"
+    },
+    {
+      "id": 258679,
+      "variant": "live",
+      "matchNumber": 20,
+      "matchDate": "2025-03-20T13:00+05:30",
+      "venue": "ACA ADCA Ground, Anantapur",
+      "team1": {
+        "name": "Mumbai Indians",
+        "shortName": "MI",
+        "logo": "/teams/1111.png",
+        "score": {
+          "runs": 39,
+          "wickets": 3,
+          "overs": "5.0"
+        }
+      },
+      "team2": {
+        "name": "Lucknow Super Giants",
+        "shortName": "LSG",
+        "logo": "/teams/2954.png",
+        "score": {
+          "runs": 39,
+          "wickets": 1,
+          "overs": "5.0"
+        }
+      },
+      "matchStatus": "Match Tied"
+    },
+    {
+      "id": 258678,
+      "variant": "live",
+      "matchNumber": 19,
+      "matchDate": "2025-03-20T12:00+05:30",
+      "venue": "AB Ground, EMCHI, Doimukh, Arunachal Pradesh",
+      "team1": {
+        "name": "Delhi Capitals",
+        "shortName": "DC",
+        "logo": "/teams/1109.png",
+        "score": {
+          "runs": 39,
+          "wickets": 2,
+          "overs": "5.0"
+        }
+      },
+      "team2": {
+        "name": "Rajasthan Royals",
+        "shortName": "RR",
+        "logo": "/teams/1110.png",
+        "score": {
+          "runs": 39,
+          "wickets": 1,
+          "overs": "5.0"
+        }
+      },
+      "matchStatus": "Match Tied"
+    },
+    {
+      "id": 999003,
+      "variant": "upcoming",
+      "matchNumber": 23,
+      "matchDate": "2026-01-25T19:30+05:30",
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "matchStartTime": "19:30",
+      "team1": {
+        "name": "Chennai Super Kings",
+        "shortName": "CSK",
+        "logo": "/teams/1108.png"
+      },
+      "team2": {
+        "name": "Royal Challengers Bengaluru",
+        "shortName": "RCB",
+        "logo": "/teams/1105.png"
+      }
+    },
+    {
+      "id": 999001,
+      "variant": "upcoming",
+      "matchNumber": 21,
+      "matchDate": "2026-01-26T19:30+05:30",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "matchStartTime": "19:30",
+      "team1": {
+        "name": "Gujarat Titans",
+        "shortName": "GT",
+        "logo": "/teams/2955.png"
+      },
+      "team2": {
+        "name": "Chennai Super Kings",
+        "shortName": "CSK",
+        "logo": "/teams/1108.png"
+      }
+    },
+    {
+      "id": 999002,
+      "variant": "upcoming",
+      "matchNumber": 22,
+      "matchDate": "2026-01-28T15:30+05:30",
+      "venue": "Eden Gardens, Kolkata",
+      "matchStartTime": "15:30",
+      "team1": {
+        "name": "Kolkata Knight Riders",
+        "shortName": "KKR",
+        "logo": "/teams/1106.png"
+      },
+      "team2": {
+        "name": "Gujarat Titans",
+        "shortName": "GT",
+        "logo": "/teams/2955.png"
+      }
+    },
+    {
+      "id": 260875,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-06-03T19:30+05:30",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "team1": {
+        "name": "Royal Challengers Bengaluru",
+        "shortName": "RCB",
+        "logo": "/teams/1105.png",
+        "score": {
+          "runs": 190,
+          "wickets": 9,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Punjab Kings",
+        "shortName": "PBKS",
+        "logo": "/teams/1107.png",
+        "score": {
+          "runs": 184,
+          "wickets": 7,
+          "overs": "20.0"
+        }
+      },
+      "result": "Royal Challengers Bengaluru beat Punjab Kings by 6 runs"
+    },
+    {
+      "id": 260874,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-06-01T19:30+05:30",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "team1": {
+        "name": "Mumbai Indians",
+        "shortName": "MI",
+        "logo": "/teams/1111.png",
+        "score": {
+          "runs": 203,
+          "wickets": 6,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Punjab Kings",
+        "shortName": "PBKS",
+        "logo": "/teams/1107.png",
+        "score": {
+          "runs": 207,
+          "wickets": 5,
+          "overs": "19.0"
+        }
+      },
+      "result": "Punjab Kings beat Mumbai Indians by 5 wickets"
+    },
+    {
+      "id": 260873,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-30T19:30+05:30",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+      "team1": {
+        "name": "Mumbai Indians",
+        "shortName": "MI",
+        "logo": "/teams/1111.png",
+        "score": {
+          "runs": 228,
+          "wickets": 5,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Gujarat Titans",
+        "shortName": "GT",
+        "logo": "/teams/2955.png",
+        "score": {
+          "runs": 208,
+          "wickets": 6,
+          "overs": "20.0"
+        }
+      },
+      "result": "Mumbai Indians beat Gujarat Titans by 20 runs"
+    },
+    {
+      "id": 260872,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-29T19:30+05:30",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+      "team1": {
+        "name": "Punjab Kings",
+        "shortName": "PBKS",
+        "logo": "/teams/1107.png",
+        "score": {
+          "runs": 101,
+          "wickets": 10,
+          "overs": "14.1"
+        }
+      },
+      "team2": {
+        "name": "Royal Challengers Bengaluru",
+        "shortName": "RCB",
+        "logo": "/teams/1105.png",
+        "score": {
+          "runs": 106,
+          "wickets": 2,
+          "overs": "10.0"
+        }
+      },
+      "result": "Royal Challengers Bengaluru beat Punjab Kings by 8 wickets"
+    },
+    {
+      "id": 260871,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-27T19:30+05:30",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "team1": {
+        "name": "Lucknow Super Giants",
+        "shortName": "LSG",
+        "logo": "/teams/2954.png",
+        "score": {
+          "runs": 227,
+          "wickets": 3,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Royal Challengers Bengaluru",
+        "shortName": "RCB",
+        "logo": "/teams/1105.png",
+        "score": {
+          "runs": 230,
+          "wickets": 4,
+          "overs": "18.4"
+        }
+      },
+      "result": "Royal Challengers Bengaluru beat Lucknow Super Giants by 6 wickets"
+    },
+    {
+      "id": 260870,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-26T19:30+05:30",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "team1": {
+        "name": "Mumbai Indians",
+        "shortName": "MI",
+        "logo": "/teams/1111.png",
+        "score": {
+          "runs": 184,
+          "wickets": 7,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Punjab Kings",
+        "shortName": "PBKS",
+        "logo": "/teams/1107.png",
+        "score": {
+          "runs": 187,
+          "wickets": 3,
+          "overs": "18.3"
+        }
+      },
+      "result": "Punjab Kings beat Mumbai Indians by 7 wickets"
+    },
+    {
+      "id": 260869,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-25T19:30+05:30",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "team1": {
+        "name": "Sunrisers Hyderabad",
+        "shortName": "SRH",
+        "logo": "/teams/1379.png",
+        "score": {
+          "runs": 278,
+          "wickets": 3,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Kolkata Knight Riders",
+        "shortName": "KKR",
+        "logo": "/teams/1106.png",
+        "score": {
+          "runs": 168,
+          "wickets": 10,
+          "overs": "18.4"
+        }
+      },
+      "result": "Sunrisers Hyderabad beat Kolkata Knight Riders by 110 runs"
+    },
+    {
+      "id": 260868,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-25T15:30+05:30",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "team1": {
+        "name": "Chennai Super Kings",
+        "shortName": "CSK",
+        "logo": "/teams/1108.png",
+        "score": {
+          "runs": 230,
+          "wickets": 5,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Gujarat Titans",
+        "shortName": "GT",
+        "logo": "/teams/2955.png",
+        "score": {
+          "runs": 147,
+          "wickets": 10,
+          "overs": "18.3"
+        }
+      },
+      "result": "Chennai Super Kings beat Gujarat Titans by 83 runs"
+    },
+    {
+      "id": 260867,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-23T19:30+05:30",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "team1": {
+        "name": "Royal Challengers Bengaluru",
+        "shortName": "RCB",
+        "logo": "/teams/1105.png",
+        "score": {
+          "runs": 189,
+          "wickets": 10,
+          "overs": "19.5"
+        }
+      },
+      "team2": {
+        "name": "Sunrisers Hyderabad",
+        "shortName": "SRH",
+        "logo": "/teams/1379.png",
+        "score": {
+          "runs": 231,
+          "wickets": 6,
+          "overs": "20.0"
+        }
+      },
+      "result": "Sunrisers Hyderabad beat Royal Challengers Bengaluru by 42 runs"
+    },
+    {
+      "id": 260866,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-22T19:30+05:30",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "team1": {
+        "name": "Lucknow Super Giants",
+        "shortName": "LSG",
+        "logo": "/teams/2954.png",
+        "score": {
+          "runs": 235,
+          "wickets": 2,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Gujarat Titans",
+        "shortName": "GT",
+        "logo": "/teams/2955.png",
+        "score": {
+          "runs": 202,
+          "wickets": 9,
+          "overs": "20.0"
+        }
+      },
+      "result": "Lucknow Super Giants beat Gujarat Titans by 33 runs"
+    },
+    {
+      "id": 260865,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-21T19:30+05:30",
+      "venue": "Wankhede Stadium, Mumbai",
+      "team1": {
+        "name": "Mumbai Indians",
+        "shortName": "MI",
+        "logo": "/teams/1111.png",
+        "score": {
+          "runs": 180,
+          "wickets": 5,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Delhi Capitals",
+        "shortName": "DC",
+        "logo": "/teams/1109.png",
+        "score": {
+          "runs": 121,
+          "wickets": 10,
+          "overs": "18.2"
+        }
+      },
+      "result": "Mumbai Indians beat Delhi Capitals by 59 runs"
+    },
+    {
+      "id": 260864,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-20T19:30+05:30",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "team1": {
+        "name": "Chennai Super Kings",
+        "shortName": "CSK",
+        "logo": "/teams/1108.png",
+        "score": {
+          "runs": 187,
+          "wickets": 8,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Rajasthan Royals",
+        "shortName": "RR",
+        "logo": "/teams/1110.png",
+        "score": {
+          "runs": 188,
+          "wickets": 4,
+          "overs": "17.1"
+        }
+      },
+      "result": "Rajasthan Royals beat Chennai Super Kings by 6 wickets"
+    },
+    {
+      "id": 260863,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-19T19:30+05:30",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "team1": {
+        "name": "Lucknow Super Giants",
+        "shortName": "LSG",
+        "logo": "/teams/2954.png",
+        "score": {
+          "runs": 205,
+          "wickets": 7,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Sunrisers Hyderabad",
+        "shortName": "SRH",
+        "logo": "/teams/1379.png",
+        "score": {
+          "runs": 206,
+          "wickets": 4,
+          "overs": "18.2"
+        }
+      },
+      "result": "Sunrisers Hyderabad beat Lucknow Super Giants by 6 wickets"
+    },
+    {
+      "id": 260862,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-18T19:30+05:30",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "team1": {
+        "name": "Delhi Capitals",
+        "shortName": "DC",
+        "logo": "/teams/1109.png",
+        "score": {
+          "runs": 199,
+          "wickets": 3,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Gujarat Titans",
+        "shortName": "GT",
+        "logo": "/teams/2955.png",
+        "score": {
+          "runs": 205,
+          "wickets": 0,
+          "overs": "19.0"
+        }
+      },
+      "result": "Gujarat Titans beat Delhi Capitals by 10 wickets"
+    },
+    {
+      "id": 260861,
+      "variant": "recent",
+      "matchNumber": 0,
+      "matchDate": "2025-05-18T15:30+05:30",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "team1": {
+        "name": "Punjab Kings",
+        "shortName": "PBKS",
+        "logo": "/teams/1107.png",
+        "score": {
+          "runs": 219,
+          "wickets": 5,
+          "overs": "20.0"
+        }
+      },
+      "team2": {
+        "name": "Rajasthan Royals",
+        "shortName": "RR",
+        "logo": "/teams/1110.png",
+        "score": {
+          "runs": 209,
+          "wickets": 7,
+          "overs": "20.0"
+        }
+      },
+      "result": "Punjab Kings beat Rajasthan Royals by 10 runs"
+    }
   ]
 }
 
