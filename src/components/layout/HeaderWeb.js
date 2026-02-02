@@ -7,7 +7,7 @@ export default function HeaderWeb() {
 
     return (
         <header className="hidden lg:block w-full text-white border-b border-white/10 bg-primary-gradient-1 relative before:content-[''] before:absolute before:inset-0 before:bg-[url('/pattern-04.svg')] before:opacity-30 before:z-0">
-            <div className="max-w-[1440px] mx-auto px-6 relative z-10">
+            <div className="container mx-auto px-4 md:px-6 relative z-10">
                 {/* Header Bottom */}
                 <div className="flex items-center justify-between gap-12">
                     <Link href="/" className="shrink-0">
