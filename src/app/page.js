@@ -1,11 +1,81 @@
+'use client';
+
 import { buttonStyles } from "@/lib/variants/button";
+import Filter from "@/components/reusable/Filter";
 
 export default function Home() {
+  const sampleFilters = [
+    {
+      id: 'skills',
+      label: 'Filter By Skills',
+      defaultValue: 'Batting',
+      type: 'button',
+      options: [
+        { value: 'all', label: 'All' },
+        { value: 'batting', label: 'Batting' },
+        { value: 'bowling', label: 'Bowling' },
+        { value: 'wicket-keeping', label: 'Wicket Keeping' },
+        { value: 'all-rounder', label: 'All Rounder' },
+      ],
+    },
+    {
+      id: 'stats',
+      label: 'Filter By Stats',
+      defaultValue: 'Most Runs',
+      type: 'button',
+      options: [
+        { value: 'all', label: 'All' },
+        { value: 'most-runs', label: 'Most Runs' },
+        { value: 'most-wickets', label: 'Most Wickets' },
+        { value: 'best-average', label: 'Best Average' },
+        { value: 'best-strike-rate', label: 'Best Strike Rate' },
+      ],
+    },
+    {
+      id: 'teams',
+      label: 'Filter By Teams',
+      defaultValue: 'All',
+      type: 'button',
+      options: [
+        { value: 'all', label: 'All' },
+        { value: 'gt', label: 'Gujarat Titans' },
+        { value: 'mi', label: 'Mumbai Indians' },
+        { value: 'csk', label: 'Chennai Super Kings' },
+      ],
+    },
+    {
+      id: 'season',
+      label: 'Filter By Season',
+      defaultValue: 'All',
+      type: 'button',
+      options: [
+        { value: 'all', label: 'All' },
+        { value: '2024', label: '2024' },
+        { value: '2023', label: '2023' },
+        { value: '2022', label: '2022' },
+      ],
+    },
+  ];
+
+  const handleApplyFilters = (selectedFilters) => {
+    console.log('Applied filters:', selectedFilters);
+  };
+
   return (
     <div className="flex-1 p-6 md:p-12 lg:p-24">
       <h1 className="text-4xl font-bold text-sky-600 mb-8 text-center md:text-left">Gujarat Titans</h1>
 
       <div className="flex flex-col gap-10 max-w-4xl mx-auto md:mx-0">
+        <section>
+          <h2 className="text-xl font-semibold mb-4 text-slate-800">Filter Component Demo</h2>
+          <div className="bg-white p-6 rounded-lg shadow-sm">
+            <Filter 
+              filters={sampleFilters} 
+              onApplyFilters={handleApplyFilters}
+            />
+          </div>
+        </section>
+
         <section>
           <h2 className="text-xl font-semibold mb-4 text-slate-800">Gradient Buttons (via Tailwind Variants)</h2>
           <div className="flex gap-4 flex-wrap">
