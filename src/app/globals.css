@@ -42,7 +42,6 @@ html {
     background: linear-gradient(71.55deg, var(--color-secondary-light) -2.42%, var(--color-brand-gold) 18.81%, var(--color-secondary-dark) 47.18%, var(--color-secondary-2) 73.91%, var(--color-secondary-3) 88.2%, var(--color-secondary-4) 98.68%);
 }
 
-<<<<<<< Updated upstream
 .fixture-status-clamp {
     display: flex;
     align-items: center;
@@ -204,7 +203,6 @@ html {
     @apply border-t border-gray-200 dark:border-gray-700;
     @apply bg-gray-50 dark:bg-gray-800/50;
 }
-=======
 @utility bg-article-overlay {
     background: linear-gradient(to bottom, transparent, rgba(var(--primary-color-rgb), 0.8) 40%, var(--color-primary) 90.69%);
 }
@@ -281,6 +279,5 @@ html {
   line-height: 1.75;
 }
 
->>>>>>> Stashed changes
 
 
