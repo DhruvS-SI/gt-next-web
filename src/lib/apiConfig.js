@@ -8,7 +8,14 @@ export const API_ENDPOINTS = {
   BATTING_SCORECARD: '/battingScorecard',
   BOWLING_SCORECARD: '/bowlingScorecard',
   FALL_OF_WICKETS: '/fallOfWickets',
+<<<<<<< Updated upstream
   FIXTURES: '/fixtures',
+=======
+  ARTICLES: '/articles',
+  PHOTOS: '/photos',
+  VIDEOS: '/videos',
+  GALLERY: '/photos', // Gallery uses photos endpoint
+>>>>>>> Stashed changes
 }
 
 
