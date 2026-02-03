@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={publicSans.variable}>
-      <body className="antialiased min-h-screen flex flex-col">
+      <body className="antialiased min-h-screen flex flex-col overflow-x-hidden">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
