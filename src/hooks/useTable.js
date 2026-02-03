@@ -15,8 +15,6 @@ export const useTable = ({
   const [initialLoading, setInitialLoading] = useState(autoFetch && !!url)
   const [hasMore, setHasMore] = useState(true)
   const [currentPage, setCurrentPage] = useState(initialPage)
-
-
   const buildUrl = useCallback((page = null, limit = null) => {
     const fullUrl = baseUrl ? `${baseUrl}${url}` : url
     const separator = fullUrl.includes('?') ? '&' : '?'
@@ -52,7 +50,7 @@ export const useTable = ({
     }
   }, [url, baseUrl, enableLoadMore, initialPage, pageSize, buildUrl])
 
-
+ 
   const fetchInitial = useCallback(async () => {
     if (!url) return
 
