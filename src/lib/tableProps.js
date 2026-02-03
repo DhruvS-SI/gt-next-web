@@ -66,15 +66,16 @@ export const pointsTableColumns = [
 ]
 
 export const pointsTableData = [
-  { id: 1, position: 1, team: 'Punjab Kings', shortName: 'PBKS', logo: '/images/teams/pbks.png', played: 14, won: 9, lost: 4, noResult: 1, nrr: 0.372, points: 19, qualified: true },
-  { id: 2, position: 2, team: 'Royal Challengers Bengaluru', shortName: 'RCB', logo: '/images/teams/rcb.png', played: 14, won: 9, lost: 4, noResult: 1, nrr: 0.301, points: 19, qualified: true },
-  { id: 3, position: 3, team: 'Gujarat Titans', shortName: 'GT', logo: '/images/teams/gt.png', played: 14, won: 9, lost: 5, noResult: 0, nrr: 0.254, points: 18, qualified: true },
-  { id: 4, position: 4, team: 'Mumbai Indians', shortName: 'MI', logo: '/images/teams/mi.png', played: 14, won: 8, lost: 6, noResult: 0, nrr: 1.142, points: 16, qualified: true },
-  { id: 5, position: 5, team: 'Delhi Capitals', shortName: 'DC', logo: '/images/teams/dc.png', played: 14, won: 7, lost: 6, noResult: 1, nrr: 0.011, points: 15, qualified: false },
-  { id: 6, position: 6, team: 'Sunrisers Hyderabad', shortName: 'SRH', logo: '/images/teams/srh.png', played: 14, won: 6, lost: 7, noResult: 1, nrr: -0.241, points: 13, qualified: false },
-  { id: 7, position: 7, team: 'Lucknow Super Giants', shortName: 'LSG', logo: '/images/teams/lsg.png', played: 14, won: 6, lost: 8, noResult: 0, nrr: -0.376, points: 12, qualified: false },
-  { id: 8, position: 8, team: 'Kolkata Knight Riders', shortName: 'KKR', logo: '/images/teams/kkr.png', played: 14, won: 5, lost: 7, noResult: 2, nrr: -0.305, points: 12, qualified: false },
-  { id: 9, position: 9, team: 'Rajasthan Royals', shortName: 'RR', logo: '/images/teams/rr.png', played: 14, won: 4, lost: 10, noResult: 0, nrr: -0.549, points: 8, qualified: false },
+  { id: '1107', position: 1, team: 'Punjab Kings', shortName: 'PBKS', logo: '/teams/1107.png', played: 14, won: 9, lost: 4, noResult: 1, nrr: 0.372, points: 19, qualified: true },
+  { id: '1105', position: 2, team: 'Royal Challengers Bengaluru', shortName: 'RCB', logo: '/teams/1105.png', played: 14, won: 9, lost: 4, noResult: 1, nrr: 0.301, points: 19, qualified: true },
+  { id: '2955', position: 3, team: 'Gujarat Titans', shortName: 'GT', logo: '/teams/2955.png', played: 14, won: 9, lost: 5, noResult: 0, nrr: 0.254, points: 18, qualified: true },
+  { id: '1111', position: 4, team: 'Mumbai Indians', shortName: 'MI', logo: '/teams/1111.png', played: 14, won: 8, lost: 6, noResult: 0, nrr: 1.142, points: 16, qualified: true },
+  { id: '1109', position: 5, team: 'Delhi Capitals', shortName: 'DC', logo: '/teams/1109.png', played: 14, won: 7, lost: 6, noResult: 1, nrr: 0.011, points: 15, qualified: false },
+  { id: '1379', position: 6, team: 'Sunrisers Hyderabad', shortName: 'SRH', logo: '/teams/1379.png', played: 14, won: 6, lost: 7, noResult: 1, nrr: -0.241, points: 13, qualified: false },
+  { id: '2954', position: 7, team: 'Lucknow Super Giants', shortName: 'LSG', logo: '/teams/2954.png', played: 14, won: 6, lost: 8, noResult: 0, nrr: -0.376, points: 12, qualified: false },
+  { id: '1106', position: 8, team: 'Kolkata Knight Riders', shortName: 'KKR', logo: '/teams/1106.png', played: 14, won: 5, lost: 7, noResult: 2, nrr: -0.305, points: 12, qualified: false },
+  { id: '1110', position: 9, team: 'Rajasthan Royals', shortName: 'RR', logo: '/teams/1110.png', played: 14, won: 4, lost: 10, noResult: 0, nrr: -0.549, points: 8, qualified: false },
+  { id: '1108', position: 10, team: 'Chennai Super Kings', shortName: 'CSK', logo: '/teams/1108.png', played: 14, won: 4, lost: 10, noResult: 0, nrr: -0.647, points: 8, qualified: false },
 ]
 
 export const pointsRowClassName = (row) => 
