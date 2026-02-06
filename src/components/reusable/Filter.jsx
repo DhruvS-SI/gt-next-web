@@ -14,10 +14,12 @@ export default function Filter({ filters = [], onApplyFilters, className }) {
     const moreFilters = filters.slice(2);
 
     const handleFilterSelect = (filterId, value) => {
-        setSelectedFilters(prev => ({
-            ...prev,
+        const newFilters = {
+            ...selectedFilters,
             [filterId]: value
-        }));
+        };
+        setSelectedFilters(newFilters);
+        onApplyFilters?.(newFilters);
     };
 
     const handleApplyFilters = () => {
@@ -178,7 +180,31 @@ export default function Filter({ filters = [], onApplyFilters, className }) {
 
 // SelectBox Component
 function SelectBox({ filter, selectedValue, isOpen, onToggle, onSelect, className }) {
-    const displayValue = selectedValue || filter.defaultValue || 'All';
+    // Determine the value to search for: selectedValue or defaultValue (if no selection)
+    // Note: defaultValue in props seems to be used as a Label in some contexts, but ideally should be value.
+    // For safety, we try to find an option matching selectedValue first.
+    
+    // Logic: 
+    // 1. If we have a selectedValue, find its option.
+    // 2. If no selectedValue, try matching defaultValue against option values OR labels (fallback).
+    // 3. Fallback to 'All' or defaultValue string.
+
+    const effectiveValue = selectedValue; 
+    
+    let displayLabel = effectiveValue;
+
+    // Try to find the option that matches the effectiveValue
+    const selectedOption = filter.options.find(opt => opt.value === effectiveValue);
+    
+    if (selectedOption) {
+        displayLabel = selectedOption.label;
+    } else if (!effectiveValue && filter.defaultValue) {
+        // If nothing selected, show default value. 
+        // We assume defaultValue might be the Label "All" or similar.
+        displayLabel = filter.defaultValue;
+    } else if (!effectiveValue) {
+        displayLabel = 'All';
+    }
 
     return (
         <div className={cn("waf-select-box relative", className)}>
@@ -192,7 +218,7 @@ function SelectBox({ filter, selectedValue, isOpen, onToggle, onSelect, classNam
                 </p>
                 <div className="flex items-center justify-between gap-2">
                     <p className="title text-sm font-semibold text-gray-900 dark:text-white">
-                        {displayValue}
+                        {displayLabel}
                     </p>
                     <svg
                         className={cn(
@@ -231,9 +257,9 @@ function SelectBox({ filter, selectedValue, isOpen, onToggle, onSelect, classNam
                                     <a
                                         href={option.href}
                                         onClick={(e) => {
-                                            if (!option.href) {
+                                            if (!option.href || option.href === '#') {
                                                 e.preventDefault();
-                                                onSelect(option.label);
+                                                onSelect(option.value);
                                                 onToggle();
                                             }
                                         }}
@@ -250,7 +276,7 @@ function SelectBox({ filter, selectedValue, isOpen, onToggle, onSelect, classNam
                                     key={option.value}
                                     className="list-item"
                                     onClick={() => {
-                                        onSelect(option.label);
+                                        onSelect(option.value);
                                         onToggle();
                                     }}
                                 >
