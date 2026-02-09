@@ -9,6 +9,10 @@ export const API_ENDPOINTS = {
   BOWLING_SCORECARD: '/bowlingScorecard',
   FALL_OF_WICKETS: '/fallOfWickets',
   FIXTURES: '/fixtures',
+  ARTICLES: '/articles',
+  PHOTOS: '/photos',
+  VIDEOS: '/videos',
+  GALLERY: '/photos', // Gallery uses photos endpoint
 }
 
 
