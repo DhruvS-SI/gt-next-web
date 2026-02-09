@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { SocialShare } from '@/components/SocialShare';
 import { articleStyles } from '@/lib/variants/article';
 import { cn } from '@/lib/utils';
@@ -12,6 +13,7 @@ export const Article = ({
   description,
   type,
   url,
+  slug,
   thumbnail,
   videoUrl,
   mediaType = 'image',
@@ -39,7 +41,27 @@ export const Article = ({
   
   const styles = baseStyles;
 
-  return (
+  // Determine href for navigation
+  // Priority: slug > url (if it's a valid route)
+  let href = null;
+  if (slug) {
+    // If slug exists, determine the route based on url or default to news
+    if (url?.includes('/news/')) {
+      href = `/news/${slug}`;
+    } else if (url?.includes('/videos/')) {
+      href = `/videos/${slug}`;
+    } else if (url?.includes('/photos/')) {
+      href = `/photos/${slug}`;
+    } else {
+      // Default to news if url doesn't indicate otherwise
+      href = `/news/${slug}`;
+    }
+  } else if (url?.startsWith('/')) {
+    // Use url directly if it's a valid route
+    href = url;
+  }
+
+  const articleContent = (
     <article className={cn(styles.container(), className)}>
       {/* Split Content (for split variant - left side, shown first) */}
       {variant === 'split' && (
@@ -148,5 +170,16 @@ export const Article = ({
       )}
     </article>
   );
+
+  // Wrap in Link if href is available
+  if (href) {
+    return (
+      <Link href={href} className="block">
+        {articleContent}
+      </Link>
+    );
+  }
+
+  return articleContent;
 };
 
